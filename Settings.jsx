@@ -51,7 +51,7 @@ module.exports = class Settings extends React.Component {
           YeeLight Brightness
         </TextInput>
         <TextInput
-          note={'Set the color you want the light to flash when you get mentioned. For example, #00ff00 would make it green.'}
+          note={'Set the color you want the light to flash when you mute yourself. For example, #00ff00 would make it green.'}
           value={getSetting('BulbColor', '#7289DA')}
           onChange={val => updateSetting('BulbColor', val)}
         >
